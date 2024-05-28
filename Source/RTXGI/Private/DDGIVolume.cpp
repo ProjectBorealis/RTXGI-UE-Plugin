@@ -13,6 +13,8 @@
 #include "Components/BoxComponent.h"
 #include "Engine/CollisionProfile.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(DDGIVolume)
+
 ADDGIVolume::ADDGIVolume(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {

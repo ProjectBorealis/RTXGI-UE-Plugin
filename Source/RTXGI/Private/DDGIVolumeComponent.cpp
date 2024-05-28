@@ -31,6 +31,8 @@
 
 #include "RenderGraphUtils.h"
 
+#include UE_INLINE_GENERATED_CPP_BY_NAME(DDGIVolumeComponent)
+
 DECLARE_GPU_STAT_NAMED(RTXGI_Update, TEXT("RTXGI Update"));
 DECLARE_GPU_STAT_NAMED(RTXGI_ApplyLighting, TEXT("RTXGI Apply Lighting"));
 DECLARE_GPU_STAT_NAMED(RTXGI_UpscaleLighting, TEXT("RTXGI Upscale Lighting"));
