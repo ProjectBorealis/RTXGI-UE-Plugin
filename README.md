@@ -1,5 +1,18 @@
 # RTXGI Unreal Engine Plugin
 
+## Maintenance Note
+
+Although this plugin was originally an enhanced fork of NVIDIA's RTXGI, when we moved from UE4.27 to UE5, we followed in NVIDIA's decision to discontinue the plugin. Now,
+this plugin was simply made to be able to phase off of RTXGI after support has ended for it. It provides data compatibility options so that levels can be loaded to delete content.
+It provides no GI functionality of its own. We don't plan to update it further, though a lot of code has been disabled to ease porting for this use case.
+
+We recommend using Lumen for real-time GI. It has better performance for dynamic cases, and though the baking of RTX lighting was a novel feature, it can be done with better
+methods which are not exclusive to NVIDIA.
+
+This plugin was only updated up to 5.3 to facilitate our own aforementioned data migration. We do not plan to update the plugin further.
+
+## About
+
 To bring the advantages of RTXGI to as many developers as possible, all RTXGI 1.1 features are now available in Unreal Engine through the RTXGI UE plugin.
 
 To use the RTXGI UE plugin, you'll first need to meet the following software and hardware requirements:
